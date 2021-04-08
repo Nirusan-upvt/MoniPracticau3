@@ -19,5 +19,5 @@ from practicau3 import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('uni',views.con)
+    path('',views.pagina, name='index')
 ]
